@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Open Bar",
+    "description": "Open Bar para satisfazer jovens formandos",
+    "price": 1100,
+    "image": "https://images.unsplash.com/photo-1618106547744-68915223cdbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+}
