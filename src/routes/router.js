@@ -1,4 +1,4 @@
-//Roteador
+//Roteador Geral(Agrupador de Rotas)
 const express = require('express')
 const router = express.Router();
 
