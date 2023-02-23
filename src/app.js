@@ -7,8 +7,8 @@ app.use(cors());
 app.use(express.json());
 
 //Database Connection
-const connection = require("./database/connection");
-connection();
+const connectionDatabase = require("./database/connection");
+connectionDatabase();
 
 //Rotas
 const routes = require("./routes/router");
